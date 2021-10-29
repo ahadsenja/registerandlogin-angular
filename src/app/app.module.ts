@@ -11,6 +11,7 @@ import { UserLayoutComponent } from './users/user-layout/user-layout.component';
 import { AccountLayoutComponent } from './account/account-layout/account-layout.component';
 import { AccountLoginComponent } from './account/account-login/account-login.component';
 import { AccountRegisterComponent } from './account/account-register/account-register.component';
+// import { TestDirective } from './helper/test.directive';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { AccountRegisterComponent } from './account/account-register/account-reg
     UserLayoutComponent,
     AccountLayoutComponent,
     AccountLoginComponent,
-    AccountRegisterComponent
+    AccountRegisterComponent,
+    // TestDirective
   ],
   imports: [
     BrowserModule,
